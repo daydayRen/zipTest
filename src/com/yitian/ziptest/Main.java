@@ -17,7 +17,8 @@ public class Main {
         //测试压缩
         String targetPath = "D:\\hhhh\\";
         try {
-            //ZipBiz.zip(zipFilePath,targetPath,"ss.zip");
+
+            //ZipBiz.zip(zipFilePath,targetPath,"ss.zip");dd
             UnZip.unzip(targetPath + "压缩.zip", "D:\\hhhh\\" + "ss", true);
         } catch (Exception e) {
             e.printStackTrace();
